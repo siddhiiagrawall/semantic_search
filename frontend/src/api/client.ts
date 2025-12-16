@@ -1,4 +1,4 @@
-export const API_BASE = "http://localhost:8000";
+export const API_BASE = "https://semantic-search-kv6d.onrender.com";
 
 export async function apiFetch(
   path: string,
