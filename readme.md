@@ -92,7 +92,7 @@ Run backend:
 uvicorn app.main:app --reload
 ```
 
-Backend runs at: [http://localhost:8000](http://localhost:8000)
+Backend (local): [http://localhost:8000](http://localhost:8000)
 
 ### 2️⃣ Frontend Setup
 
@@ -105,6 +105,10 @@ npm run dev
 Frontend runs at: [http://localhost:5173](http://localhost:5173)
 
 ---
+### 🌐 Deployed URLs
+
+- **Frontend:** [https://semantic-search-1-6i7u.onrender.com](https://semantic-search-1-6i7u.onrender.com)
+- **Backend:** [https://semantic-search-kv6d.onrender.com](https://semantic-search-kv6d.onrender.com)
 
 ## 🧪 API Testing
 
@@ -141,4 +145,3 @@ Frontend runs at: [http://localhost:5173](http://localhost:5173)
 - Pagination for search results
 - Rate limiting
 - UI polish & loading states
-- Deployment to Vercel / Railway
