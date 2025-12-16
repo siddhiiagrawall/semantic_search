@@ -28,9 +28,9 @@ The backend integrates an LLM-based search API (Exa), while the frontend provide
 
 ```mermaid
 graph TD
-    A[Frontend (React + TS)] -->|HTTP (JSON)| B[Backend (FastAPI)]
-    B -->|Exa API (AI Search)| C[Exa API]
-    B -->|MongoDB (User data & history)| D[MongoDB]
+    A(Frontend: React+TS) --> B(Backend: FastAPI)
+    B --> C(Exa API)
+    B --> D(MongoDB)
 ```
 
 ---
