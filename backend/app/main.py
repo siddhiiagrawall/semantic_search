@@ -7,7 +7,8 @@ app = FastAPI(title="AI Semantic Search")
 # ✅ ADD THIS BLOCK
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # frontend
+    allow_origins=["http://localhost:5173",
+                   "https://semantic-search-1-6i7u.onrender.com"],  # frontend
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
